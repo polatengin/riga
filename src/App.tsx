@@ -12,6 +12,9 @@ export const App: FunctionComponent = () => {
       <section className="w-full container">
         <h2 className="text-gray-900 text-xl my-6 pl-4">Configure</h2>
 
+        <div className="p-4 rounded shadow bg-white flex gap-4">
+
+        </div>
       </section>
     </div>
   );
