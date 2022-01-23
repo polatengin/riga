@@ -10,6 +10,8 @@ export const App: FunctionComponent = () => {
       </header>
 
       <section className="w-full container">
+        <h2 className="text-gray-900 text-xl my-6 pl-4">Configure</h2>
+
       </section>
     </div>
   );
