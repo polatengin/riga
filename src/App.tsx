@@ -8,6 +8,9 @@ export const App: FunctionComponent = () => {
         <LogoIcon className="bg-red-500 w-12 h-8 mr-2 rounded" />
         <h1 className="text-xl text-gray-900">Riga App</h1>
       </header>
+
+      <section className="w-full container">
+      </section>
     </div>
   );
 };
