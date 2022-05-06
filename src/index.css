@@ -1,3 +1,10 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer utilities {
+  div.calendar-month div:nth-child(-n+7) {
+    @apply h-8 bg-gray-200;
+  }
+
+}
