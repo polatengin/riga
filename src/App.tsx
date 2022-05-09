@@ -14,9 +14,8 @@ export const App: FunctionComponent = () => {
       <section className="w-full container">
         <h2 className="text-gray-900 text-xl my-6 pl-4">Configure</h2>
 
-        <div className="p-4 rounded shadow bg-white flex gap-4">
-
-          <div className="w-1/2">
+        <div className="p-4 rounded shadow bg-gray-200 grid grid-rows-2 grid-cols-2 gap-4">
+          <div>
             <label className="text-gray-600 font-bold pr-4">
               Start calendar from
             </label>
