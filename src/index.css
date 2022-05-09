@@ -7,4 +7,7 @@
     @apply h-8 bg-gray-200;
   }
 
+  header .calendar-month {
+    zoom: 0.25;
+  }
 }
