@@ -58,8 +58,10 @@ export const App: FunctionComponent = () => {
               Download calendar
             </button>
 
+            <button className="shadow bg-yellow-100 hover:bg-yellow-200 focus:shadow-outline focus:outline-none text-gray-700 font-bold py-2 px-4 rounded mr-4" type="button">
+              GitHub code
+            </button>
           </div>
-
         </div>
       </section>
     </div>
