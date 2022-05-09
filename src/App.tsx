@@ -40,8 +40,7 @@ export const App: FunctionComponent = () => {
               </div>
             </div>
           </div>
-
-          <div className="w-1/2">
+          <div>
             <label className="text-gray-600 font-bold pr-4">
               Preview
             </label>
