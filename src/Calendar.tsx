@@ -24,6 +24,9 @@ export const Calendar: FunctionComponent<CalendarProps> = (props: CalendarProps)
           <CalendarMonth month={nextMonth} year={nextYear} />
         </div>
       </header>
+      <div>
+        <CalendarMonth month={props.month} year={props.year} />
+      </div>
     </div>
   );
 
