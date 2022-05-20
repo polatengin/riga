@@ -1,4 +1,6 @@
 import React, { FunctionComponent, useState } from 'react';
+import { Calendar } from './Calendar';
+
 import { LogoIcon } from './Icons';
 
 export const App: FunctionComponent = () => {
