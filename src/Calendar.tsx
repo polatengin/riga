@@ -21,6 +21,7 @@ export const Calendar: FunctionComponent<CalendarProps> = (props: CalendarProps)
         <h3 className="text-6xl flex-grow">{Months[month]} {props.year}</h3>
         <div className="w-36">
           <h4 className="text-xs">{Months[nextMonth]} {nextYear}</h4>
+          <CalendarMonth month={nextMonth} year={nextYear} />
         </div>
       </header>
     </div>
