@@ -15,6 +15,9 @@ export const Calendar: FunctionComponent<CalendarProps> = (props: CalendarProps)
 
   return (
     <div className="bg-white shadow p-4 select-none">
+      <header className="flex align-items mb-6">
+        <h3 className="text-6xl flex-grow">{Months[month]} {props.year}</h3>
+      </header>
     </div>
   );
 
