@@ -10,6 +10,8 @@ export const App: FunctionComponent = () => {
 
   const [month, setMonth] = useState(new Date().getMonth() + 1);
   const [year, setYear] = useState(new Date().getFullYear());
+
+  const calendarRef = React.createRef<HTMLDivElement>();
   return (
     <div className="bg-gray-100 text-gray-900 tracking-wider leading-normal h-full flex flex-col items-center">
       <header className="bg-white shadow flex align-center p-4 container">
