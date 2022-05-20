@@ -9,6 +9,7 @@ interface CalendarProps {
 
 export const Calendar: FunctionComponent<CalendarProps> = (props: CalendarProps) => {
 
+  const month = props.month;
   return (
     <div className="bg-white shadow p-4 select-none">
     </div>
