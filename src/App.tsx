@@ -49,17 +49,12 @@ export const App: FunctionComponent = () => {
             </label>
             <div ref={calendarRef}>
               <Calendar month={month} year={year} />
+            </div>
           </div>
+          <div className="pt-8 col-span-2">
+            <blockquote className="border-l-4 border-yellow-600 italic my-4 pl-8 md:pl-12">Final confirmation disclaimer message etc</blockquote>
 
-        </div>
-
-        <div className="p-4 rounded shadow bg-white">
-
-          <blockquote className="border-l-4 border-yellow-600 italic my-4 pl-8 md:pl-12">Final confirmation disclaimer message etc</blockquote>
-
-          <div className="pt-8">
-
-            <button className="shadow bg-yellow-700 hover:bg-yellow-500 focus:shadow-outline focus:outline-none text-white font-bold py-2 px-4 rounded mr-4" type="button">
+            <button className="shadow bg-yellow-700 hover:bg-yellow-500 focus:shadow-outline focus:outline-none text-white font-bold py-2 px-4 rounded mr-4" type="button" onClick={downloadCalendar}>
               Download calendar
             </button>
 
