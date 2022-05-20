@@ -2,6 +2,8 @@ import { FunctionComponent } from "react";
 
 import { Months } from "./Utils";
 
+import { CalendarMonth } from "./CalendarMonth";
+
 interface CalendarProps {
   month: number;
   year: number;
