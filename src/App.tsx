@@ -47,6 +47,8 @@ export const App: FunctionComponent = () => {
             <label className="text-gray-600 font-bold pr-4">
               Preview
             </label>
+            <div ref={calendarRef}>
+              <Calendar month={month} year={year} />
           </div>
 
         </div>
