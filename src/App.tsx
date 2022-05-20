@@ -1,4 +1,7 @@
 import React, { FunctionComponent, useState } from 'react';
+
+import { jsPDF } from "jspdf";
+
 import { Calendar } from './Calendar';
 
 import { LogoIcon } from './Icons';
