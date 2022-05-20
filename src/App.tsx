@@ -12,6 +12,26 @@ export const App: FunctionComponent = () => {
   const [year, setYear] = useState(new Date().getFullYear());
 
   const calendarRef = React.createRef<HTMLDivElement>();
+
+  const downloadCalendar = () => {
+    const calendar = calendarRef.current!;
+
+    const doc = new jsPDF({
+      orientation: 'landscape',
+      format: "a4",
+      unit: "em",
+    });
+
+    doc.html(calendar, {
+      html2canvas: {
+        scale: 0.08,
+      },
+      callback: (doc) => {
+        doc.save('calendar.pdf');
+      }
+    });
+  };
+
   return (
     <div className="bg-gray-100 text-gray-900 tracking-wider leading-normal h-full flex flex-col items-center">
       <header className="bg-white shadow flex align-center p-4 container">
