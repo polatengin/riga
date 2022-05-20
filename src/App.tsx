@@ -2,6 +2,7 @@ import React, { FunctionComponent, useState } from 'react';
 import { LogoIcon } from './Icons';
 
 export const App: FunctionComponent = () => {
+
   const [month, setMonth] = useState(new Date().getMonth() + 1);
   const [year, setYear] = useState(new Date().getFullYear());
   return (
